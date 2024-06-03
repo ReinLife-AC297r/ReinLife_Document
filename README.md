@@ -27,13 +27,14 @@ As a quick starter, please go to this [website](https://flutternotification-ebd5
 ### Run Backend Python APIs
 
 #### Download Code
-The backend python APIs are written as a python module `ReinLifeResearcher.py'. Researchers should download the code at the [backend python APIs repo](https://github.com/ReinLife-AC297r/reinlife_backend_APIs), create a virtual environment (optionally), and install dependencies in `requirements.txt` using `pip install -r requirements.txt'.
+The backend python APIs are written as a python module `ReinLifeResearcher.py`. Researchers should download the code at the [backend python APIs repo](https://github.com/ReinLife-AC297r/reinlife_backend_APIs), create a virtual environment (optionally), and install dependencies in `requirements.txt` using `pip install -r requirements.txt`
 
 #### Download Private Key For Firebase AdminSDK
 The backend python APIs are communicating with the firebase backend service via Firebase AdminSDK. To quickly try out our demo, researchers can contact us for the key that is linked to our firebase account for the demo project, and put it into the repo for the backend APIs. (The name of the private key is currently hardcoded in `server2firestore.py` and need to be improved in the future. We expect that in the long run, researchers should integrate the frontend to their own firebase accounts.)
 
 #### Configuration files
-To example files
+To experiment configuration file `experiment_info.json` and 
+
 
 
 
