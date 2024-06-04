@@ -36,7 +36,7 @@ The backend python APIs are written as a python module `ReinLifeResearcher.py`. 
 
 
 
-#### 2.2 Run a Jupyter Notebook Tutorial
+#### 2.2 Run the Jupyter Notebook Tutorial
 `example_researcher_defined_code.ipynb` serves as an interactive tutorial to our APIs.
 
 ##### 2.2.1 Prepare Private Key for Firebase AdminSDK
