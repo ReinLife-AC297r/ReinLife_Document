@@ -10,6 +10,11 @@ The current version of ReinLife is based on Google Flutter and Google Firebase. 
 
 The Flutter framework allows us to build cross-platform apps that support both iOS and Android systems. For demonstration purpose, a web version has also been created, that allow interested users to easily get a flavor of our app.
 
+
+https://github.com/ReinLife-AC297r/ReinLife_Document/assets/62970850/f9d59528-7b4e-4831-aed5-d9ffc593ee87
+
+
+
 ## A Quick Start Guide
 
 This quick start guide aims to provide ML researchers the workflow of our platform, especially python backend APIs.
