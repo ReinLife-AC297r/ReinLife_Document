@@ -1,4 +1,4 @@
-# ReinLife_Document
+# ReinLife Document
 
 Document of ReinLife mobile health platform.
 
@@ -21,12 +21,12 @@ This quick start guide aims to provide ML researchers the workflow of our platfo
 
 ### 1. Open Frontend App
 
-As a quick starter, please go to this [website](https://flutternotification-ebd50.web.app) to try out a web version of our app that is deployed on Google Firebase. Please make sure to give your web browser access to push notifications to ensure the web app can function properly. 
+As a quick starter, please go to this [<strong>demo website</strong>](https://flutternotification-ebd50.web.app) to try out a web version of our app that is deployed on Google Firebase. Please make sure to give your web browser access to push notifications to ensure the web app can function properly. 
 
 **Potential issues for the web version of our app:**
 1) If using browsers on iOS, it will only work on iOS 16.4 or later, and you need to "add the website to home page" before trying the app.
 2) If using browsers on MacOS, make sure to give notification access to your browswer.
-3) It might have issues on FireFox.
+3) It might have issues on FireFox based on our experience.
 4) The push notification logics has not been optimized for the web version, so please only consider this as a demo of our app.
 
 ### 2. Run Backend Python APIs
@@ -39,16 +39,16 @@ The backend python APIs are written as a python module `ReinLifeResearcher.py`. 
 #### 2.2 Run a Jupyter Notebook Tutorial
 `example_researcher_defined_code.ipynb` serves as an interactive tutorial to our APIs.
 
-##### 2.2.1 Download Private Key For Firebase AdminSDK
+##### 2.2.1 Prepare Private Key for Firebase AdminSDK
 The backend python APIs are communicating with the firebase backend service via Firebase AdminSDK. To quickly try out our demo, researchers can contact us for the key that is linked to our firebase account for the demo project, and put it into the repo for the backend APIs. (The name of the private key is currently hardcoded in `server2firestore.py` and need to be improved in the future. We expect that in the long run, researchers should integrate the frontend to their own firebase accounts.)
 
-##### 2.2.2 Configuration files
+##### 2.2.2 Configuration Files
 To experiment configuration file `experiment_info.json` and questionnaire configuration `questionnaires.json` files serve as examples.
 
-##### 2.2.3 Explore the tutorial
+##### 2.2.3 Explore the Tutorial
 In this example code, you will set experiment information, push different questionnaires to frontend app users, and run a dummy ML code to send interventions to advocate healthier diet based on the frequency of the answers 'broccoli' and 'asparagus' in each user's answers to the first question.
 
-### 3. Conduct your own experiments
+### 3. Conduct Your Own Experiments
 Congratulations! Now you should be able to configure your own experiments with our Python APIs.
 
 **Final notes:**
