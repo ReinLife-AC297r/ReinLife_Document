@@ -52,8 +52,7 @@ In this example code, you will set experiment information, push different questi
 Congratulations! Now you should be able to configure your own experiments with our Python APIs.
 
 **Final notes:**
-1) In our current version, we have not configured notification message for iOS systems. We will need to register a developer account and pay a $100 membership fee to do the configuration.
-2) The backend has been configured on our personal google Firebase accounts. We expect each researcher/research group should copy our Flutter code and deploy the app to their own Firebase accounts following the [instruction document](https://tbd).
+The backend has been configured on our personal google Firebase accounts. We expect each researcher/research group should copy our Flutter code and deploy the app to their own Firebase accounts following the [instruction document](https://tbd).
 
 ## Full Document
 [Frontend Documents](https://tbd)
